@@ -1,0 +1,163 @@
+//// header////
+
+@media (max-width:1128px) {
+    .db-flex-res {
+        display: block;
+    }
+}
+
+@media (max-width:704px) {
+    .header {
+        & .nav-itam {
+            display: none !important;
+        }
+
+        .hamberger-menu {
+            display: block !important;
+        }
+
+        #checkbox:checked~.hamberger-menu {
+            background: red !important;
+            margin: 2rem !important;
+        }
+    }
+
+    .db-flex-res {
+        & .challenge {
+            min-height: 20rem !important;
+        }
+    }
+}
+
+
+@media (max-width:704px) {
+    .header{
+        & .nav-itam{
+            display: none !important;
+        }
+    }
+}
+
+
+////body////
+
+
+@media (max-width:740px) {
+    .leaderbord{
+        height: 60rem !important;
+        padding: 0 !important;
+    }
+
+    .table {
+        margin-bottom: 8rem !important;
+    }
+
+    & .text-leaderbord {
+        margin: -3.8rem 0rem ;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+    }
+
+    & .list-style {
+        margin-top: 2rem !important;
+        margin-bottom: -2rem !important;
+    }
+
+    & .thead {
+        width: 25rem !important;
+    }
+
+    & .txt, .text-img {
+        padding: 0rem 1rem !important;
+    }
+
+    & .icon-arrow {
+        margin: 0rem 12.5rem !important;
+    }
+
+
+    & .clone-box {
+        flex-direction: column !important;
+        ::-webkit-scrollbar {
+            background: #130f40 !important;
+            width: 0.4rem !important;
+            height: 1rem !important;
+            border-radius: 5px !important;
+        }   
+    }
+
+    & .text-leaderbord {
+        & .one, .two {
+            margin: -1rem 0rem;
+        }
+    }
+}
+
+
+@media (max-width:600px) {
+    .icon-arrow {
+        margin-top: -1rem !important;
+    }
+}
+
+@media (max-width:500px) {
+    .thead {
+        width: 20rem !important;
+    }
+
+    & .icon-arrow {
+        margin: -1rem 10.5rem !important;
+    }
+}
+
+@media (max-width:400px) {
+    & .thead {
+        width: 15rem !important;
+    }
+
+    & .icon-arrow {
+        margin: -1.2rem 7.5rem !important;
+    }
+}
+
+
+@media (max-width:350px) {
+    .select-game {
+        margin-right: 1rem !important;
+    }
+}
+
+@media (max-width:320px) {
+    & .thead {
+        width: 12rem !important;
+    }
+}
+
+
+
+///// footer ////
+
+@media (max-width:900px) {
+    & .img-find {
+        display: none !important;
+    }
+
+    & .list-icon {
+        display: inline-flex !important;
+    }
+
+    & .i-hodler {
+        padding-top: 0.7rem !important;
+    }
+}
+
+@media (max-width:280px) {
+    .footer {
+        margin-top:-7rem !important
+    }
+}
+@media (max-width:666px){
+    .footer-holder {
+        flex-direction: column-reverse;
+    }
+}
